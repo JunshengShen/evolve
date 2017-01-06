@@ -126,7 +126,7 @@ void main(int argc, char* argv[])
 	SU::suVolume v;
 	v.LoadMeshFromFile(inputFile.CString());
 
-	std::cout << "Use Time(read file): " << pastTime.getPastMicroSec() << " microseconds. " << std::endl;
+	std::cout << "Use Time(read file): " << pastTime.getPastMilSec() << " microseconds. " << std::endl;
 
 	//voxization
 	pastTime.reset();
